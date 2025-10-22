@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_schedule">
+    <sys_atf_schedule action="DELETE">
+        <active>true</active>
+        <advanced>false</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <description>This schedule will perform the following actions:
+
+Run suite 'NeedIt App' on a system with this configuration:
+Edge browser whose version starts with 141
+Any operating system on any version</description>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time/>
+        <max_drift/>
+        <name> NeedIt App Suites</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <performance_test>false</performance_test>
+        <repeat_every/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_daysofweek/>
+        <run_end/>
+        <run_in_cloud>false</run_in_cloud>
+        <run_month/>
+        <run_period/>
+        <run_start>2025-10-17 12:55:20</run_start>
+        <run_time>1970-01-01 10:00:00</run_time>
+        <run_type>monthly</run_type>
+        <run_weekinmonth/>
+        <script><![CDATA[new global.ScheduledTestProcessor().executeScheduledSuites('e4679387936832105a46fcb6dd03d646');]]></script>
+        <sys_class_name>sys_atf_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 12:55:49</sys_created_on>
+        <sys_id>e4679387936832105a46fcb6dd03d646</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name> NeedIt App Suites</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_schedule_e4679387936832105a46fcb6dd03d646</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 13:07:01</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sys_atf_schedule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>28734f132b77a6101c84f9f66e91bfe0</instance_id>
+        <instance_name>dev357745</instance_name>
+        <name>sys_atf_schedule_e4679387936832105a46fcb6dd03d646</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_atf_schedule"&gt;&lt;sys_atf_schedule action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;business_calendar/&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;description&gt;This schedule will perform the following actions:
+
+Run suite 'NeedIt App' on a system with this configuration:
+Edge browser whose version starts with 141
+Any operating system on any version&lt;/description&gt;&lt;entered_run_end/&gt;&lt;entered_run_start/&gt;&lt;entered_time/&gt;&lt;max_drift/&gt;&lt;name&gt; NeedIt App Suites&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;performance_test&gt;false&lt;/performance_test&gt;&lt;repeat_every/&gt;&lt;run_as display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_daysofweek/&gt;&lt;run_end/&gt;&lt;run_in_cloud&gt;false&lt;/run_in_cloud&gt;&lt;run_month/&gt;&lt;run_period/&gt;&lt;run_start&gt;2025-10-17 12:55:20&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 10:00:00&lt;/run_time&gt;&lt;run_type&gt;monthly&lt;/run_type&gt;&lt;run_weekinmonth/&gt;&lt;script&gt;&lt;![CDATA[new global.ScheduledTestProcessor().executeScheduledSuites('e4679387936832105a46fcb6dd03d646');]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_atf_schedule&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-10-17 12:55:49&lt;/sys_created_on&gt;&lt;sys_id&gt;e4679387936832105a46fcb6dd03d646&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt; NeedIt App Suites&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_atf_schedule_e4679387936832105a46fcb6dd03d646&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-10-17 13:07:01&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sys_atf_schedule&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-676470475</payload_hash>
+        <record_name> NeedIt App Suites</record_name>
+        <reverted_from/>
+        <source>8273e28b932432105a46fcb6dd03d62a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 13:07:01</sys_created_on>
+        <sys_id>3f0a9f4b936832105a46fcb6dd03d6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>199f247e31b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 13:07:01</sys_updated_on>
+        <type>Suite Schedule</type>
+        <update_guid>b30a9f4b6f6832108eed717331af25a5</update_guid>
+        <update_guid_history>b30a9f4b6f6832108eed717331af25a5:-676470475,350a9f4b696832105f9251812e29352b:-1287996367,15f91f4b32683210083c72e97cb6f308:-1404126220,5f499f0b7c6832105962540ab6380b21:1685514580,fe49d30b22683210b0b13d3e14564873:1452649780,d9491f0be8683210f11b4a48c8638d80:-1462378165,26391f0b10683210a5291c7e967eca0e:-1174042881,57091b0b536832107b8d4162d461e833:602500098,dde8570b29683210d979a78a4f88bfb6:1025480424,8bc8930bc6683210e24292509bd0c8ea:-1281024504,edc8930b44683210f1dcdc76d81a695f:-1287996367,01d7db878768321011fa1f0bb8837ed7:-1404126220,7b7757876f683210efb0b7b3365f2f02:1867537181</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 13:09:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_schedule">sys_atf_schedule</sys_db_object>
+        <sys_id>1789d9085a6d4d90827e71c57f3a4310</sys_id>
+        <sys_metadata>e4679387936832105a46fcb6dd03d646</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name> NeedIt App Suites</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_schedule_e4679387936832105a46fcb6dd03d646</sys_update_name>
+        <sys_update_version display_value="sys_atf_schedule_e4679387936832105a46fcb6dd03d646">3f0a9f4b936832105a46fcb6dd03d6a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 13:09:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
