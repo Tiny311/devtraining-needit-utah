@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event">
+    <sys_ux_event action="DELETE">
+        <description/>
+        <event_name>GENERATE_QUERY_AND_TITLE</event_name>
+        <explicit_api_name/>
+        <interfaces/>
+        <label>Generate query and title</label>
+        <props>[]</props>
+        <required_translations/>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_event</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-13 15:04:03</sys_created_on>
+        <sys_id>ade8e02d83c73210f4755fd6feaad30e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generate query and title</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_event_ade8e02d83c73210f4755fd6feaad30e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-13 15:04:03</sys_updated_on>
+    </sys_ux_event>
+    <sys_translated_text action="DELETE" query="documentkey=ade8e02d83c73210f4755fd6feaad30e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>89bb76f71b22bdd49377eb9b2d4bcb22</instance_id>
+        <instance_name>dev222647</instance_name>
+        <name>sys_ux_event_ade8e02d83c73210f4755fd6feaad30e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_event"><sys_ux_event action="INSERT_OR_UPDATE"><description/><event_name>GENERATE_QUERY_AND_TITLE</event_name><explicit_api_name/><interfaces/><label>Generate query and title</label><props>[]</props><required_translations/><schema_version>1.0.0</schema_version><sys_class_name>sys_ux_event</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-02-13 15:04:03</sys_created_on><sys_id>ade8e02d83c73210f4755fd6feaad30e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Generate query and title</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ux_event_ade8e02d83c73210f4755fd6feaad30e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-02-13 15:04:03</sys_updated_on></sys_ux_event><sys_translated_text action="delete_multiple" query="documentkey=ade8e02d83c73210f4755fd6feaad30e"/></record_update>]]></payload>
+        <payload_hash>-101190132</payload_hash>
+        <record_name>Generate query and title</record_name>
+        <reverted_from/>
+        <source>694a34a8838b3210f4755fd6feaad30e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-13 15:04:03</sys_created_on>
+        <sys_id>160ae8ad83c73210f4755fd6feaad39b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c5787cb4f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-13 15:04:03</sys_updated_on>
+        <type>UX Event</type>
+        <update_guid>160a24ad0fc73210c982fba4186598f2</update_guid>
+        <update_guid_history>160a24ad0fc73210c982fba4186598f2:-101190132</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-13 15:36:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_event">sys_ux_event</sys_db_object>
+        <sys_id>6befc8a3b4914ea7b70a72bf1c4c5b09</sys_id>
+        <sys_metadata>ade8e02d83c73210f4755fd6feaad30e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Generate query and title</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ux_event_ade8e02d83c73210f4755fd6feaad30e</sys_update_name>
+        <sys_update_version display_value="sys_ux_event_ade8e02d83c73210f4755fd6feaad30e">160ae8ad83c73210f4755fd6feaad39b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-13 15:36:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
